@@ -1,0 +1,51 @@
+Rank,Company,Ticker,Revenues,Profits
+1,Walmart,WMT,485873,13643
+2,"Berkshire Hathaway",BRKA,223604,24074
+3,Apple,AAPL,215639,45687
+4,"Exxon Mobil",XOM,205004,7840
+5,McKesson,MCK,192487,2258
+6,"UnitedHealth Group",UNH,184840,7017
+7,"CVS Health",CVS,177526,5317
+8,"General Motors",GM,166380,9427
+9,AT&T,T,163786,12976
+10,"Ford Motor",F,151800,4596
+11,AmerisourceBergen,ABC,146850,1427.9
+12,Amazon.com,AMZN,135987,2371
+13,"General Electric",GE,126661,8831
+14,Verizon,VZ,125980,13127
+15,"Cardinal Health",CAH,121546,1427
+16,Costco,COST,118719,2350
+17,"Walgreens Boots Alliance",WBA,117351,4173
+18,Kroger,KR,115337,1975
+19,Chevron,CVX,107567,-497
+20,"Fannie Mae",FNMA,107162,12313
+21,"J.P. Morgan Chase",JPM,105486,24733
+22,"Express Scripts Holding",ESRX,100288,3404.4
+23,"Home Depot",HD,94595,7957
+24,Boeing,BA,94571,4895
+25,"Wells Fargo",WFC,94176,21938
+26,"Bank of America Corp.",BAC,93662,17906
+27,Alphabet,GOOGL,90272,19478
+28,Microsoft,MSFT,85320,16798
+29,Anthem,ANTM,84863,2469.8
+30,Citigroup,C,82386,14912
+31,Comcast,CMCSA,80403,8695
+32,IBM,IBM,79919,11872
+33,"State Farm Insurance Cos.",IBM,76132,350.3
+34,"Phillips 66",PSX,72396,1555
+35,"Johnson & Johnson",JNJ,71890,16540
+36,"Procter & Gamble",PG,71726,10508
+37,"Valero Energy",VLO,70166,2289
+38,Target,TGT,69495,2737
+39,"Freddie Mac",FMCC,65665,7815
+40,Lowe’s,LOW,65017,3093
+41,"Dell Technologies",LOW,64806,-1672
+42,MetLife,MET,63476,800
+43,Aetna,AET,63155,2271
+44,PepsiCo,PEP,62799,6329
+45,"Archer Daniels Midland",ADM,62346,1279
+46,UPS,UPS,60906,3431
+47,Intel,INTC,59387,10316
+48,"Prudential Financial",PRU,58779,4368
+49,"Albertsons Cos.",PRU,58734,-502.2
+50,"United Technologies",UTX,57244,5055
