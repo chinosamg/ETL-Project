@@ -3,25 +3,18 @@ CREATE DATABASE ETL_Project_Fortune500;
 USE ETL_Project_Fortune500;
 
 -- Create Tables
-CREATE TABLE Fortune500 (
+CREATE TABLE Fortune500_2017 (
 Rank INT PRIMARY KEY,
     Company TEXT,
     Ticker TEXT,
-    Revenues INT,
-    Profits INT);
+    Revenues INT);
 
-CREATE TABLE Fortune100 (
+CREATE TABLE Fortune500_2016 (
 Rank INT PRIMARY KEY,
     Company TEXT,
     Ticker TEXT,
-    Revenues INT,
-    Profits INT);
+    Revenues INT);
 
-CREATE TABLE Fortune50 (
-Rank INT PRIMARY KEY,
-    Company TEXT,
-    Ticker TEXT,
-    Revenues INT,
-    Profits INT);
+
 
 

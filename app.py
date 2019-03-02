@@ -1,31 +1,31 @@
 from flask import Flask, jsonify
 
-# Top10 Companies
-Top10_Companies = [
-    {"Company": "Walmart", "Rank": "#1"},
-    {"Company": "Berkshire Hathaway", "Rank": "#2"},
-    {"Company": "Apple", "Rank": "#3"},
-    {"Company": "Exxon Mobil", "Rank": "#4"},
-    {"Company": "McKesson", "Rank": "#5"},
-    {"Company": "UnitedHealth Group", "Rank": "#6"},
-    {"Company": "CVS Health", "Rank": "#7"},
-    {"Company": "General Motors", "Rank": "#8"},
-    {"Company": "AT&T", "Rank": "#9"},
-    {"Company": "Ford Motor", "Rank": "#10"}
+# Top10 Companies 2017
+Top10_Companies_2017 = [
+    {"Walmart": "#1"},
+    {"Berkshire Hathaway": "#2"},
+    {"Apple": "#3"},
+    {"Exxon Mobil": "#4"},
+    {"McKesson": "#5"},
+    {"UnitedHealth Group": "#6"},
+    {"CVS Health": "#7"},
+    {"General Motors": "#8"},
+    {"AT&T": "#9"},
+    {"Ford Motor": "#10"}
 ]
 
-# Most Recent Stock Price
-Top10_Stock = [
-    {"Company": "Walmart", "Stock Price": "TBD"},
-    {"Company": "Berkshire Hathaway", "Stock Price": "TBD"},
-    {"Company": "Apple", "Stock Price": "TBD"},
-    {"Company": "Exxon Mobil", "Stock Price": "TBD"},
-    {"Company": "McKesson", "Stock Price": "TBD"},
-    {"Company": "UnitedHealth Group", "Stock Price": "TBD"},
-    {"Company": "CVS Health", "Stock Price": "TBD"},
-    {"Company": "General Motors", "Stock Price": "TBD"},
-    {"Company": "AT&T", "Stock Price": "TBD"},
-    {"Company": "Ford Motor", "Stock Price": "TBD"}
+# Top10 Companies 2016
+Top10_Companies_2016 = [
+    {"Walmart": "#1"},
+    {"Exxon Mobil": "#2"},
+    {"Apple": "#3"},
+    {"Berkshire Hathaway": "#4"},
+    {"McKesson": "#5"},
+    {"UnitedHealth Group": "#6"},
+    {"CVS Health": "#7"},
+    {"General Motors": "#8"},
+    {"Ford Motor": "#9"},
+    {"AT&T": "#10"}
 ]
 
 #################################################
@@ -41,18 +41,18 @@ app = Flask(__name__)
 #################################################
 
 @app.route("/api/v1.0/Top10_2017")
-def Top10_Company():
-    """Return the Forbes500 Top10 data as json"""
+def Top10_Company_2017():
+    """Return the Forbes Top10 in 2017data as json"""
 
-    return jsonify(Top10_Companies)
+    return jsonify(Top10_Companies_2017)
 
 #################################################
 
-@app.route("/api/v2.0/Top10_Stock_Price")
-def Top10_Stock_Price():
-    """Return the Forbes500 Top10 Stock Price data as json"""
+@app.route("/api/v2.0/Top10_2016")
+def Top10_Company_2016():
+    """Return the Forbes Top10 in 2016 data as json"""
 
-    return jsonify(Top10_Stock)
+    return jsonify(Top10_Companies_2016)
 
 @app.route("/")
 def welcome():
@@ -60,7 +60,7 @@ def welcome():
         f"Welcome to the Forbes 500 Top 10 Companies of 2017!<br/>"
         f"Available Routes:<br/>"
         f"/api/v1.0/Top10_2017<br/>"
-        f"/api/v2.0/Top10_Stock_Price"
+        f"/api/v2.0/Top10_2016"
     )
 
 

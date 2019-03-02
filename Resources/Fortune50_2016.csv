@@ -1,0 +1,51 @@
+Rank,Company,Ticker,Revenues
+1,Walmart,WMT,482130
+2,"Exxon Mobil",XOM,246204
+3,Apple,APPL,233715
+4,"Berkshire Hathaway",BRK.B,210821
+5,McKesson,MCK,181241
+6,"UnitedHealth Group",UNH,157107
+7,"CVS Health",CVS,153290
+8,"General Motors",GM,152356
+9,"Ford Motor",F,149558
+10,AT&T,T,146801
+11,"General Electric",GE,140389
+12,AmerisourceBergen,ABC,135962
+13,Verizon,VZ,131620
+14,Chevron,CVX,131118
+15,Costco,COST,116199
+16,"Fannie Mae",FNMA,110359
+17,Kroger,KR,109830
+18,Amazon.com,AMZN,107006
+19,Walgreens,WAG,103444
+20,HP,HPQ,103355
+21,"Cardinal Health",CAH,102531
+22,"Express Scripts Holding",ESRX,101752
+23,"J.P. Morgan Chase",JPM,101006
+24,Boeing,BA,96114
+25,Microsoft,MSFT,93580
+26,"Bank of America Corp.",BAC,93056
+27,"Wells Fargo",WFC,90033
+28,"Home Depot",HD,88519
+29,Citigroup,C,88275
+30,"Phillips 66",PSX,87169
+31,IBM,IBM,82461
+32,"Valero Energy",VLO,81824
+33,Anthem,ANTM,79157
+34,"Procter & Gamble",PG,78756
+35,"State Farm Insurance Cos.",STFGX,75697
+36,Alphabet,GOOGL,74989
+37,Comcast,CMCSA,74510
+38,Target,TGT,73785
+39,"Johnson & Johnson",JNJ,70074
+40,MetLife,MET,69951
+41,"Archer Daniels Midland",ADM,67702
+42,"Marathon Petroleum",MPC,64566
+43,"Freddie Mac",FMCC,63491
+44,PepsiCo,PEP,63056
+45,"United Technologies",UTX,61047
+46,Aetna,AET,60337
+47,Lowe's,LOW,59074
+48,UPS,UPS,58363
+49,AIG,AIG,58327
+50,"Prudential Financial",PRU,57119
