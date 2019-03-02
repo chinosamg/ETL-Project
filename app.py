@@ -53,7 +53,7 @@ def Top10_Company_2016():
     """Return the Forbes Top10 in 2016 data as json"""
 
     #return jsonify(Top10_Companies_2016)
-    retun render_template("2016Data.html", jsonify(Top10_Companies_2016))
+    return render_template("2016Data.html", jsonify(Top10_Companies_2016))
 
 @app.route("/")
 def welcome():
