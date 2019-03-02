@@ -1,67 +1,39 @@
-# Guidelines for ETL Project
-
-This document contains guidelines, requirements, and suggestions for the ETL Project.
-
-## Team Effort
-
-Due to the short timeline, teamwork will be crucial to the success of this project! Work closely with your team through all phases of the project to ensure that there are no surprises at the end of the week.
-
-Working in a group enables you to tackle more difficult problems than you'd be able to working alone. In other words, working in a group allows you to **work smart** and **dream big**. Take advantage of it!
-
 ## Project Proposal
 
-Before you start writing any code, remember that you only have one week to complete this project. View this project as a typical assignment from work. Imagine a bunch of data came in and you and your team are tasked with migrating it to a production data base.
-
-Take advantage of your Instructor and TA support during office hours and class project work time. They are a valuable resource and can help you stay on track.
+Provide analysis of top 10 companies in 2017 as determined by Fortune Magazine. 
 
 ## Finding Data
 
-Your project must use 2 or more sources of data. We recommend the following sites to use as sources of data:
+We decided to use data.world source for target companies. Then Alpha Advatange to pull current stock values. 
 
 * [data.world](https://data.world/)
-* [Kaggle](https://www.kaggle.com/)
-* Google also has a dataset search interface: [https://toolbox.google.com/datasetsearch](https://toolbox.google.com/datasetsearch).
+* https://data.world/chasewillden/fortune-500-companies-2017
 
-You can also use APIs or data scraped from the web. However, get approval from your instructor first. Again, there is only a week to complete this!
+* [Alpha Advantage](https://www.alphavantage.co/documentation/)
 
-- 
 
 ## Data Cleanup & Analysis
 
-Once you have identified your datasets, perform ETL on the data. Make sure to plan and document the following:
 
-* The sources of data that you will extract from.
+*  Fortune 500 Top 500 of 2017 CSV from data.world
 
-* The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc).
+*  Convert CSV into MySQL database to filter into top 100 and top 10. Also calculate average, min, & max for profits and     revenue. 
 
-* The type of final production database to load the data into (relational or non-relational).
+*  New CSV files created from MySQL to create tables and bar graphs for top 10 companies. 
 
-* The final tables or collections that will be used in the production database.
-
-You will be required to submit a final technical report with the above information and steps required to reproduce your ETL process.
+* New CSV files also used to create JSON to input into FLASK search. 
 
 ## Project Report
 
-At the end of the week, **your team will submit a Final Report** that describes the following:
-
-* **E**xtract: your original data sources and how the data was formatted (CSV, JSON, MySQL, etc).
+* **E**xtract:
+    # Using CSV file from data.world named Fortune Top 500 of 2017
+    # Using API to call stock prices for top 10 companies at end of 2017
 
 * **T**ransform: what data cleaning or transformation was required.
+    # Converted to MySQL database to manipulate into desired dataset. In this case looking for Top 10 of 2017. 
 
-* **L**oad: the final database, tables/collections, and why this was chosen.
+* **L**oad: 
+    # 
 
-**Please upload the report to Github and submit a link to Bootcampspot.**
 
-## Extra credit
 
-- At least one source is from an API, or stored in a SQL database
-- At least one source is web-scraped and stored in a NoSQL database
-- Present some part of this data in a web page -- can be a static page, but as a Flask app would be for extra, extra credit :) 
-
-This is only for extra credit and to help you reinforce the materials covered the last few weeks.  Budget your time accordingly.
-
-- - -
-
-### Copyright
-
-Coding Boot Camp © 2018. All Rights Reserved.
