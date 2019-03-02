@@ -5,8 +5,7 @@
         "Additional Info": [
             {
                 "Ticker": "WMT",
-                "Revenues": 485873.0,
-                "Profits": 13643
+                "Revenues": 485873.0
             }
         ]
     },
@@ -16,8 +15,7 @@
         "Additional Info": [
             {
                 "Ticker": "BRKA",
-                "Revenues": 223604.0,
-                "Profits": 24074
+                "Revenues": 223604.0
             }
         ]
     },
@@ -27,8 +25,7 @@
         "Additional Info": [
             {
                 "Ticker": "AAPL",
-                "Revenues": 215639.0,
-                "Profits": 45687
+                "Revenues": 215639.0
             }
         ]
     },
@@ -38,8 +35,7 @@
         "Additional Info": [
             {
                 "Ticker": "XOM",
-                "Revenues": 205004.0,
-                "Profits": 7840
+                "Revenues": 205004.0
             }
         ]
     },
@@ -49,8 +45,7 @@
         "Additional Info": [
             {
                 "Ticker": "MCK",
-                "Revenues": 192487.0,
-                "Profits": 2258
+                "Revenues": 192487.0
             }
         ]
     },
@@ -60,8 +55,7 @@
         "Additional Info": [
             {
                 "Ticker": "UNH",
-                "Revenues": 184840.0,
-                "Profits": 7017
+                "Revenues": 184840.0
             }
         ]
     },
@@ -71,8 +65,7 @@
         "Additional Info": [
             {
                 "Ticker": "CVS",
-                "Revenues": 177526.0,
-                "Profits": 5317
+                "Revenues": 177526.0
             }
         ]
     },
@@ -82,8 +75,7 @@
         "Additional Info": [
             {
                 "Ticker": "GM",
-                "Revenues": 166380.0,
-                "Profits": 9427
+                "Revenues": 166380.0
             }
         ]
     },
@@ -93,8 +85,7 @@
         "Additional Info": [
             {
                 "Ticker": "T",
-                "Revenues": 163786.0,
-                "Profits": 12976
+                "Revenues": 163786.0
             }
         ]
     },
@@ -104,8 +95,7 @@
         "Additional Info": [
             {
                 "Ticker": "F",
-                "Revenues": 151800.0,
-                "Profits": 4596
+                "Revenues": 151800.0
             }
         ]
     }
