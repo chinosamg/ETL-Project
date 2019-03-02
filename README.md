@@ -1,19 +1,17 @@
-## Project Proposal
+# Project Proposal
 
-Provide analysis of top 10 companies in 2017 as determined by Fortune Magazine. 
+-- Provide analysis of top 10 companies in 2017 as determined by Fortune Magazine. 
 
-## Finding Data
+# Finding Data
 
-We decided to use data.world source for target companies. Then Alpha Advatange to pull current stock values. 
+-- We decided to use data.world source for target companies. Then Alpha Advatange to pull current stock values. 
 
 * [data.world](https://data.world/)
 * https://data.world/chasewillden/fortune-500-companies-2017
 
 * [Alpha Advantage](https://www.alphavantage.co/documentation/)
 
-
-## Data Cleanup & Analysis
-
+# Data Cleanup & Analysis
 
 *  Fortune 500 Top 500 of 2017 CSV from data.world
 
@@ -25,15 +23,15 @@ We decided to use data.world source for target companies. Then Alpha Advatange t
 
 ## Project Report
 
-* **E**xtract:
-    # Using CSV file from data.world named Fortune Top 500 of 2017
-    # Using API to call stock prices for top 10 companies at end of 2017
+# **E**xtract:
+    * Using CSV file from data.world named Fortune Top 500 of 2017
+    * Using API to call stock prices for top 10 companies at end of 2017
 
-* **T**ransform: what data cleaning or transformation was required.
-    # Converted to MySQL database to manipulate into desired dataset. In this case looking for Top 10 of 2017. 
+# **T**ransform: what data cleaning or transformation was required.
+    * Converted to MySQL database to manipulate into desired dataset. In this case looking for Top 10 of 2017. 
 
-* **L**oad: 
-    # 
+# **L**oad: 
+    * 
 
 
 
