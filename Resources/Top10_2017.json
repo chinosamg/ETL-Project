@@ -1,0 +1,112 @@
+[
+    {
+        "Rank": 1.0,
+        "Company": "Walmart",
+        "Additional Info": [
+            {
+                "Ticker": "WMT",
+                "Revenues": 485873.0,
+                "Profits": 13643
+            }
+        ]
+    },
+    {
+        "Rank": 2.0,
+        "Company": "Berkshire Hathaway",
+        "Additional Info": [
+            {
+                "Ticker": "BRKA",
+                "Revenues": 223604.0,
+                "Profits": 24074
+            }
+        ]
+    },
+    {
+        "Rank": 3.0,
+        "Company": "Apple",
+        "Additional Info": [
+            {
+                "Ticker": "AAPL",
+                "Revenues": 215639.0,
+                "Profits": 45687
+            }
+        ]
+    },
+    {
+        "Rank": 4.0,
+        "Company": "Exxon Mobil",
+        "Additional Info": [
+            {
+                "Ticker": "XOM",
+                "Revenues": 205004.0,
+                "Profits": 7840
+            }
+        ]
+    },
+    {
+        "Rank": 5.0,
+        "Company": "McKesson",
+        "Additional Info": [
+            {
+                "Ticker": "MCK",
+                "Revenues": 192487.0,
+                "Profits": 2258
+            }
+        ]
+    },
+    {
+        "Rank": 6.0,
+        "Company": "UnitedHealth Group",
+        "Additional Info": [
+            {
+                "Ticker": "UNH",
+                "Revenues": 184840.0,
+                "Profits": 7017
+            }
+        ]
+    },
+    {
+        "Rank": 7.0,
+        "Company": "CVS Health",
+        "Additional Info": [
+            {
+                "Ticker": "CVS",
+                "Revenues": 177526.0,
+                "Profits": 5317
+            }
+        ]
+    },
+    {
+        "Rank": 8.0,
+        "Company": "General Motors",
+        "Additional Info": [
+            {
+                "Ticker": "GM",
+                "Revenues": 166380.0,
+                "Profits": 9427
+            }
+        ]
+    },
+    {
+        "Rank": 9.0,
+        "Company": "AT&T",
+        "Additional Info": [
+            {
+                "Ticker": "T",
+                "Revenues": 163786.0,
+                "Profits": 12976
+            }
+        ]
+    },
+    {
+        "Rank": 10.0,
+        "Company": "Ford Motor",
+        "Additional Info": [
+            {
+                "Ticker": "F",
+                "Revenues": 151800.0,
+                "Profits": 4596
+            }
+        ]
+    }
+]
