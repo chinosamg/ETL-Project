@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, render_template
 import json
+import os 
 
 # Top10 Companies 2017
 Top10_Companies_2017 = [
@@ -232,7 +233,7 @@ app = Flask(__name__)
 def Top10_Company_2017():
     """Return the Forbes Top10 in 2017data as json"""
 
-    return render_template("2017Data.html", data2017 = Top10_Companies_2017)
+    return render_template("2017Data.html", data2017 = Top10_Companies_2017, cwd = os.getcwd())
 
 #################################################
 
