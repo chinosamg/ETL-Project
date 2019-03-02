@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 
 # Top10 Companies 2017
 Top10_Companies_2017 = [
@@ -52,19 +52,13 @@ def Top10_Company_2017():
 def Top10_Company_2016():
     """Return the Forbes Top10 in 2016 data as json"""
 
-    return jsonify(Top10_Companies_2016)
+    #return jsonify(Top10_Companies_2016)
+    return render_template("2016Data.html", jsonify(Top10_Companies_2016))
 
 @app.route("/")
 def welcome():
-    return (
-        f"Welcome to the Forbes 500 Top 10 Companies of 2017!<br/>"
-        f"Available Routes:<br/>"
-        f"/api/v1.0/Top10_2017<br/>"
-        f"/api/v2.0/Top10_2016"
-    )
+    return render_template("index.html")
 
 
 if __name__ == "__main__":
     app.run(debug=True)
-
-
