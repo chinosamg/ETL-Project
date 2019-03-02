@@ -28,3 +28,16 @@ GROUP BY Company
 HAVING Rank < 51
 ORDER BY Rank asc;
 
+-- Top 500 2016 Company & Revenue Only
+
+SELECT Company, Revenues
+FROM fortune500_2016
+GROUP BY Company
+ORDER BY Rank asc;
+
+-- Top 500 2017 Company & Revenue Only
+
+SELECT Company, Revenues
+FROM fortune500_2017
+GROUP BY Company
+ORDER BY Rank asc;
