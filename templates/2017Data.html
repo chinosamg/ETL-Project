@@ -17,7 +17,11 @@
             <img src="/static/Top10_2017_Revenue.png" height="500" width="1000">
         </div>
             <!-- Add Welcome message with name and hobby served from backend -->
-            <p>Check out this data!</p>
+            <br>
+            <br>
+            <strong><center><p>In 2017 top 10 remained the same as in 2016. No chance at top with Walmart #1 both years.</p></center></strong>
+            <br>
+            <br>
             {% for row in data2017 %}
             <h3>Company: {{row["Company"]}}</h3>
             <ul>Rank: {{row["Rank"]}}</ul>
@@ -29,4 +33,7 @@
         </div>
     </div>
 </body>
+<br>
+<br>
+<br>
 </html>
