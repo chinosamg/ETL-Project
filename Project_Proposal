@@ -1,0 +1,85 @@
+#Team Project - TSA
+
+  Tara Gray
+  Sam Guzman
+  Andrew Haug
+
+# Project Proposal
+
+- For our team project we choose to analyze the top rated companies on the New York Stock Exchange over 2 years and display the results 
+  on a custom website. To accomplish this task we had to extract data from csv files, transform the data with SQL and Panda, and load 
+  the data to a website utilizing html and flask. 
+
+# Finding Data
+
+- We used 2 separate data sources to pull year end closing data from the New York Stock Exchange for 2016 and 2017.Despite the fact 
+  both sources had similar data provided in CSV format, they still were formatted completely different offering many challenges to overcome
+  in our transformation section.
+
+  * [data.world](https://data.world/)
+  * https://data.world/chasewillden/fortune-500-companies-2017
+  * Jan 3, 2018 by @chasewillden
+
+  * [data.world](https://data.world/)
+  * https://data.world/databeats/2016-fortune-500-list-with-ticker-symbols
+  * May 24, 2017 by @databeats
+
+# Applications/Tools Utilized 
+
+  *Python
+  *Juptyer Notebook
+  *Panda
+  *JSON
+  *SQL
+  *Mathplotlib
+  *HTML
+  *Bootstrap
+  *Flask
+
+## Project Report
+
+# **E**xtract:
+
+  * From data.world user "@databeats" we extracted a csv file with the 500 of the top companies with ticker symbols from 2016. 
+
+	* From data.world user "@dchasewillden" we extracted a csv file with the top 500 companies of 2017.
+
+	* Using each companies corporate website we pulled companies official logs to add to our website.  
+  
+# **T**ransform: what data cleaning or transformation was required.
+
+  * By importing the csv files into Panda we were able to manipulate the data by performing the following tasks
+      *Renamed columns to match common names
+      *Dropped unnecessary columns
+      *Filtered down the top companies from 500 to 10 
+      *Set index to Company names 
+      *Sorted dataframe by highest revenue to lowest 
+
+  * By utilizing SQL we were able to clean up (cut down from 500 to top 10) more efficiently than using Juptyer Notebook. Although 
+    we did not use much of SQL analysis on our final website we have the foundation code available to locate min, max and mode if we
+    ever expand on initiate project.  
+
+	* Using Juptyer Notebook and Mathplotlib we were able to create bar charts to visually represent the top companies of 2016,
+    top 2017 and combined chart based on overall revenue. 
+
+  * By using HTML and Bootstrap we transformed our basic website design into a top looking website from the early 2000s era including 
+  money themed background images, a graphics interchange format (gif) and a funny dog image.  
+
+# **L**oad: 
+
+  * We utilized SQL to load our csv data into a database for more efficient data manipulation. 
+  
+  * Using HTML and Bootstrap we were able to design a website hosted by Github.com.  
+  
+  * By utilizing flask we created a dataframe using JSON format to list the companies on our website.  
+
+# Lessons / What We Learned 
+
+  * When using flask it is important to make a folder named "static" to hold any documents you would do not want altered. For our 
+    project we utilized this folder for images and a dataframe for website. 
+
+  * We learned many valuable formatting tricks for website design such as changing the background images or uploading a gif rather than 
+    just using static images.
+
+  * We attempted to use API sources but due to time constraints found it difficult to find free sources for stock data. Next time we 
+    will take this into account before working with stock data.
