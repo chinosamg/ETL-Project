@@ -11,10 +11,12 @@
 <body>
     <div class="container">
         <div class="row">
-            <h1>This is data from the top 10 companies for 2017</h1>
+            <strong><h1>This is data from the top 10 companies for 2017</h1></strong>
             <!-- Add link back to home page -->
-            <p>Return <a href="/">home!</a></p>
-            <img src="/static/Top10_2017_Revenue.png" height="500" width="1000">
+            <center><p>Return <a href="/">home!</a></p></center>
+            <picture>
+              <img src="/static/Top10_2017_Revenue.png" alt="2017_Revenue" height="500" width="1000" >
+            </picture>
         </div>
             <!-- Add Welcome message with name and hobby served from backend -->
             <br>
@@ -36,4 +38,19 @@
 <br>
 <br>
 <br>
+<style>
+        h1 {
+            font-size: 50px;
+        }
+        div {
+            background: white;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url("https://wallpapercave.com/wp/wp2128227.jpg");
+            background-size: cover;
+            padding: 100px 100px;
+            margin: 10px;
+        }
+    </style>
 </html>
